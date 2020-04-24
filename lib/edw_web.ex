@@ -23,6 +23,7 @@ defmodule EdwWeb do
 
       import Plug.Conn
       import EdwWeb.Gettext
+      import Phoenix.LiveView.Controller
       alias EdwWeb.Router.Helpers, as: Routes
     end
   end
@@ -47,6 +48,7 @@ defmodule EdwWeb do
 
       import Plug.Conn
       import Phoenix.Controller
+      import Phoenix.LiveView.Router
     end
   end
 
@@ -64,6 +66,7 @@ defmodule EdwWeb do
 
       import EdwWeb.ErrorHelpers
       import EdwWeb.Gettext
+      import Phoenix.LiveView.Helpers
       alias EdwWeb.Router.Helpers, as: Routes
     end
   end

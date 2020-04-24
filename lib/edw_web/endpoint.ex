@@ -7,7 +7,7 @@ defmodule EdwWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_edw_key",
-    signing_salt: "4Hqkeds6"
+    signing_salt: "xiJTNmvNww7UQx1WY6fI5I6PIuLOHVRw"
   ]
 
   socket "/socket", EdwWeb.UserSocket,

@@ -16,7 +16,7 @@ config :edw, EdwWeb.Endpoint,
   secret_key_base: "QTNmdVDsLMfW3yFVgOe1umebf80ZunpBkwov8GENrrmnEIvJHPgjINZIVdCBLvP7",
   render_errors: [view: EdwWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Edw.PubSub,
-  live_view: [signing_salt: "xZAR/rTw"]
+  live_view: [signing_salt: "xiJTNmvNww7UQx1WY6fI5I6PIuLOHVRw"]
 
 # Configures Elixir's Logger
 config :logger, :console,
